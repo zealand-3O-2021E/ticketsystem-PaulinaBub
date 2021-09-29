@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ClassLibraryTicketSystem
 {
     /// <summary>
-    /// 
+    /// Class with properties and methods for MC
     /// </summary>
     /// <returns></returns>  
     public class MC : Vehicle

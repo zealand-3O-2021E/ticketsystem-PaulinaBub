@@ -26,11 +26,11 @@ namespace ClassLibraryTicketSystem
         }
         /// Date shows the date of when the ticket was bought
         public DateTime Date;
-        ///
+        /// Brobizz is a bool that is true when the brobizz discount needs to be applied
         public bool Brobizz { get; set; } 
-        ///
+        /// Price is abstract method for the ticket price
         public abstract double Price();
-        ///
+        /// Vehicle type is an abstract method for the type of the vechicle (string)
         public abstract string VehicleType();
 
     }
