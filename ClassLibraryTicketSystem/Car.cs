@@ -12,8 +12,6 @@ namespace ClassLibraryTicketSystem
     /// <returns></returns>  
     public class Car : Vehicle
     {
-        ///
-        public bool StoreBaeltDiscount;
         /// The method Price returns the price with the neccesary discounts (Brobizz) applied
         override public double Price ()
         {

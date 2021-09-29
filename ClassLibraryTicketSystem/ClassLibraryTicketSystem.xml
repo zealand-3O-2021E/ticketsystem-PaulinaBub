@@ -10,9 +10,6 @@
             </summary>
             <returns></returns>  
         </member>
-        <member name="F:ClassLibraryTicketSystem.Car.StoreBaeltDiscount">
-            
-        </member>
         <member name="M:ClassLibraryTicketSystem.Car.Price">
             The method Price returns the price with the neccesary discounts (Brobizz) applied
         </member>
