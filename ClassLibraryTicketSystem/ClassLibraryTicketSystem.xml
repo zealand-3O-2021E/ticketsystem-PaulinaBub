@@ -6,7 +6,7 @@
     <members>
         <member name="T:ClassLibraryTicketSystem.Car">
             <summary>
-            
+             Class with properties and methods for Car
             </summary>
             <returns></returns>  
         </member>
@@ -18,7 +18,7 @@
         </member>
         <member name="T:ClassLibraryTicketSystem.MC">
             <summary>
-            
+            Class with properties and methods for MC
             </summary>
             <returns></returns>  
         </member>
@@ -41,13 +41,13 @@
             Date shows the date of when the ticket was bought
         </member>
         <member name="P:ClassLibraryTicketSystem.Vehicle.Brobizz">
-            
+            Brobizz is a bool that is true when the brobizz discount needs to be applied
         </member>
         <member name="M:ClassLibraryTicketSystem.Vehicle.Price">
-            
+            Price is abstract method for the ticket price
         </member>
         <member name="M:ClassLibraryTicketSystem.Vehicle.VehicleType">
-            
+            Vehicle type is an abstract method for the type of the vechicle (string)
         </member>
     </members>
 </doc>

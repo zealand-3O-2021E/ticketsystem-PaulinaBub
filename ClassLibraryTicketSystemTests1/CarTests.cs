@@ -19,6 +19,17 @@ namespace ClassLibraryTicketSystem.Tests
         }
 
         [TestMethod()]
+        public void PriceTestBrobizz()
+        {
+            // arrange
+            Car car = new Car() { Brobizz = true };
+            double expected = 228;
+            // act
+            // assert
+            Assert.AreEqual(expected, car.Price(), 0.05d);
+        }
+
+        [TestMethod()]
         public void VehicleTypeTest()
         {
             // arrange

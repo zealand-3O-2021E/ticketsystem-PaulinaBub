@@ -23,6 +23,17 @@ namespace ClassLibraryTicketSystem.Tests
         }
 
         [TestMethod()]
+        public void PriceTestBrobizz()
+        {
+            // arrange
+            MC mc = new MC() {Brobizz = true};
+            double expected = 118.75;
+            // act
+            // assert
+            Assert.AreEqual(expected, mc.Price(), 0.05d);
+        }
+
+        [TestMethod()]
         public void VehicleTypeTest()
         {
             // arrange
