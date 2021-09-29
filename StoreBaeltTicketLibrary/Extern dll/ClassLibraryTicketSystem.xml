@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryTicketSystem</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibraryTicketSystem.Car">
+            <summary>
+            
+            </summary>
+            <returns></returns>  
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.Price">
+            The method Price returns the price with the neccesary discounts (Brobizz) applied
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.VehicleType">
+            The method VehicleType returns the type of the vehicle as a string
+        </member>
+        <member name="T:ClassLibraryTicketSystem.MC">
+            <summary>
+            
+            </summary>
+            <returns></returns>  
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.Price">
+            The method Price returns the price with the neccesary discounts (Brobizz) applied
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.VehicleType">
+            The method VehicleType returns the type of the vehicle as a string
+        </member>
+        <member name="T:ClassLibraryTicketSystem.Program">
+            <summary>
+            Program - main 
+            </summary>
+            <returns></returns>  
+        </member>
+        <member name="T:ClassLibraryTicketSystem.Vehicle">
+            <summary>
+            Vechile is the base class for Car and MC classes
+            </summary>
+            <returns></returns>  
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Licenseplate">
+            You can only set the Licenseplate if the lenght is not more than 7, otherwise an exception will be thrown
+        </member>
+        <member name="F:ClassLibraryTicketSystem.Vehicle.Date">
+            Date shows the date of when the ticket was bought
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Brobizz">
+            
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Vehicle.Price">
+            
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Vehicle.VehicleType">
+            
+        </member>
+    </members>
+</doc>

@@ -6,16 +6,23 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryTicketSystem
 {
-    public class MC
-    {
-        public string Licenseplate;
-        public DateTime Date;
-
-        public double Price()
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>  
+    public class MC : Vehicle
+    {   
+        /// The method Price returns the price with the neccesary discounts (Brobizz) applied
+        override public double Price()
         {
-            return 125;
+            double price = 125;
+            if (Brobizz)
+                return price * 0.95;
+            else
+                return price;
         }
-        public string VehicleType()
+        /// The method VehicleType returns the type of the vehicle as a string
+        override public string VehicleType()
         {
             string type = "MC";
             return type;
