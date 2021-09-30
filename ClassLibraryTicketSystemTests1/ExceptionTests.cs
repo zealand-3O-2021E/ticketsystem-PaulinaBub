@@ -12,13 +12,13 @@ namespace ClassLibraryTicketSystem.Tests
     public class ExceptionTests
     {
         [TestMethod()]
-        public void LicensePlateTestCarExeption()
+        public void LicensePlateLengthTestExeption()       
         {
             Vehicle car = new Car();
             Assert.ThrowsException<ArgumentOutOfRangeException>(() => car.Licenseplate = "ABC1234567");
         }
         [TestMethod()]
-        public void LicensePlateLenghtTestCar()
+        public void LicensePlateLenghtTest()
         {
             Vehicle car = new Car();
             car.Licenseplate = "ABC";
