@@ -17,6 +17,7 @@ namespace OresundBron
                 return 210;
         }
 
+        
         public override string VehicleType()
         {
             string type = "Oresund MC";
